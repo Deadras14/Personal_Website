@@ -580,6 +580,13 @@ textarea {
   outline: none;
 }
 
+.recaptcha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ----------------------------------------------- */
 
 /* TESTIMONIALS */
@@ -587,7 +594,7 @@ textarea {
 /* ----------------------------------------------- */
 
 .section-testimonials {
-  background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-testimonial.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-testimonial.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-testimonial.jpg);
   background-size: cover;
   color: #fff;
