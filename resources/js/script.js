@@ -69,5 +69,12 @@ $(document).ready(function() {
         }        
     });
 	
+	/* Date */
+
+    let now = new Date().getFullYear();
+    let age = now - 1993;
+	
+    $('#age').text(age);
+	
     
 });
