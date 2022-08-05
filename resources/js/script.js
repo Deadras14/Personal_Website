@@ -74,7 +74,7 @@ $(document).ready(function() {
     let now = new Date().getFullYear();
     let age = now - 1993;
 	
-    $('#age').text(age);
+    $('.age').text(age);
 	
 
        /* Year */
