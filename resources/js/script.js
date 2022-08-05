@@ -76,5 +76,11 @@ $(document).ready(function() {
 	
     $('#age').text(age);
 	
+
+       /* Year */
+
+    let year = new Date().getFullYear();
+
+    $('#year').text(year);
     
 });
