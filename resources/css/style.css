@@ -384,6 +384,10 @@ header {
   color: #555;
 }
 
+.sticky .main-nav li a {
+  border-bottom: 2px solid #e67e22;
+}
+
 .sticky .logo {
   display: none;
 }
