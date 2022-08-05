@@ -67,6 +67,10 @@
         padding: 10px 0;
         font-size: 100%;
     }
+	
+    .main-nav li a:hover {
+      border-bottom: 2px solid #e67e22 !important;
+    }
     
     .sticky .main-nav { margin-top: 10px; }
 
